@@ -1,0 +1,32 @@
+{
+  "_translation-D-s4UNCf.js": {
+    "file": "assets/translation-D-s4UNCf.js",
+    "name": "translation"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CcG3Ql4p.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app/admin/app.js": {
+    "file": "assets/app-BEn_I5ZL.js",
+    "name": "app",
+    "src": "resources/js/app/admin/app.js",
+    "isEntry": true,
+    "imports": [
+      "_translation-D-s4UNCf.js"
+    ],
+    "css": [
+      "assets/app-CDAJ-3jo.css"
+    ]
+  },
+  "resources/js/app/visitor/app.js": {
+    "file": "assets/app-Bg6GsVLX.js",
+    "name": "app",
+    "src": "resources/js/app/visitor/app.js",
+    "isEntry": true,
+    "imports": [
+      "_translation-D-s4UNCf.js"
+    ]
+  }
+}

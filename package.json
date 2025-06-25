@@ -1,0 +1,32 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@editorjs/editorjs": "^2.30.8",
+        "@editorjs/header": "^2.8.8",
+        "@editorjs/image": "^2.10.2",
+        "@editorjs/list": "^2.0.8",
+        "@editorjs/paragraph": "^2.11.7",
+        "@editorjs/quote": "^2.7.6",
+        "@tailwindcss/vite": "^4.1.4",
+        "@vitejs/plugin-vue": "^5.2.3",
+        "chart.js": "^4.4.9",
+        "flatpickr": "^4.6.13",
+        "js-cookie": "^3.0.5",
+        "tailwindcss": "^4.1.4",
+        "vue": "^3.5.13",
+        "vue-flatpickr-component": "^12.0.0",
+        "vue-router": "^4.5.0",
+        "vue3-toastify": "^0.2.8",
+        "vuex": "^4.1.0"
+    }
+}

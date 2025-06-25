@@ -1,0 +1,36 @@
+const apiVersion = "/api/";
+
+const apiRoutes = {
+    login: apiVersion + 'auth/login',
+    registration: apiVersion + 'auth/registration',
+    forgot: apiVersion + 'auth/forgot',
+    reset: apiVersion + 'auth/reset',
+    verification: apiVersion + 'auth/verification',
+    details: apiVersion + 'profile/details',
+    changeDetails: apiVersion + 'profile/change-details',
+    changePassword: apiVersion + 'profile/change-password',
+    logout: apiVersion + 'profile/logout',
+    contact: apiVersion + 'contact',
+    slider: apiVersion + 'slider',
+    box: apiVersion + 'box',
+    category: apiVersion + 'category',
+    subcategory: apiVersion + 'subcategory',
+    brand: apiVersion + 'brand',
+    product: apiVersion + 'product',
+    blog: apiVersion + 'blog',
+    service: apiVersion + 'service',
+    testimonial: apiVersion + 'testimonial',
+    customer: apiVersion + 'customer',
+    review: apiVersion + 'review',
+    generalSettings: apiVersion + 'general-settings',
+    translation: apiVersion + 'translation',
+    general: apiVersion + 'general',
+    order: apiVersion + 'order',
+    todo: apiVersion + 'todo',
+    visitPage: apiVersion + 'visited-page',
+    totalResource: apiVersion + 'total-resource',
+    socialMediaSource: apiVersion + 'social-media-source',
+    revenueGrowth: apiVersion + 'revenue-growth',
+}
+
+export default apiRoutes;
