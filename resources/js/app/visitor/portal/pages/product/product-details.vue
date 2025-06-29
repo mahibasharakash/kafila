@@ -73,11 +73,10 @@
                         <!-- submit button -->
                         <div class="block text-[14px] px-3">
                             <button type="submit" v-if="!messageLoading"
-                                    class="min-w-[170px] max-w-[170px] min-h-[55px] btn-theme">
+                                    class="min-w-[170px] max-w-[170px] max-h-[50px] min-h-[50px] btn-theme">
                                 {{ ___(`Send Message`) }}
                             </button>
-                            <button type="button" v-if="messageLoading"
-                                    class="min-w-[170px] min-h-[55px] max-w-[170px] btn-theme">
+                            <button type="button" v-if="messageLoading" class="min-w-[170px] max-w-[170px] max-h-[50px] min-h-[50px] btn-theme">
                                 <span
                                     class="inline-block size-[20px] rounded-full border-2 border-white border-t-transparent animate-spin"></span>
                             </button>
